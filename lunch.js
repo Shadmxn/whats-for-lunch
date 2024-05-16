@@ -28,12 +28,12 @@ const whatToDoForLunch = function(hungry, availableTime) {
     if (availableTime <= 20) {
       console.log("You have less than 20 minutes, grab a snack");
     } else if (availableTime > 20 && availableTime <= 30) {
-       console.log("You have between 20 and 30 minutes, take a break and cook a meal");
-    } else if (availableTime >30) {
+      console.log("You have between 20 and 30 minutes, take a break and cook a meal");
+    } else if (availableTime > 30) {
       console.log("You have more than 30 minutes, you should use your time wisely");
-      }
-    } else {
-      console.log("You don't need food right now");
+    }
+  } else {
+    console.log("You don't need food right now");
   }
 };
 
